@@ -52,7 +52,7 @@ def commentretrieve(videoid):
         print(f"Comment: {comment}\nAuthor Channel ID: {author_id}\nPrediction: {prediction}\nHate Probabilty: {round(probabilty,2)}% \n\n")
     
     return hatecomments
-
+#aesthetics #here
 def hateornohate(comment):
 
     # Load the tokenizer and model
